@@ -167,6 +167,10 @@ section {
     color: #5d5d5d;
 }
 
+.header__icons-container {
+    display: none;
+}
+
 .header__content {
     margin-top: 70px;
     display: -webkit-box;
@@ -1004,6 +1008,7 @@ body.menu-active .header__overlay {
     .header__icons-container {
         margin-top: 50px;
         border-top: none;
+	display: block;
     }
 
     .header__icons {
